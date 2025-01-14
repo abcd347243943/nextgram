@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
 export default function Page() {
-  let photos = Array.from({ length: 6 }, (_, i) => i + 1);
+  let photos = Array.from({ length: 9 }, (_, i) => i + 1);
 
   return (
     <section className="cards-container">
